@@ -3,8 +3,7 @@ const {compile} = require("nexe");
 compile({
 	input: "./pokemon-showdown",
 	output: "./nexe-pokemon-showdown",
-	resources: [ "./**/*" ],
-	target: "linux-x64",
+	target: "linux-x64-16.20.2",
 	build: true,
 	loglevel: "verbose"
 }).then( () => {
